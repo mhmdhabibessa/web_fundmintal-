@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" > </script>
+
+    <script>
+        var rev_photo  = "";
+        for(var i = 0; i < 8; i++){
+            rev_photo += '<img src="firstArt.jpg" alt="ninja_picture">'
+        }
+        rev_photo  += '<button>Restore</button>'
+        $(document).ready(function(){
+            $(".all_photo").append(rev_photo )
+
+            $("img").click(function(){
+                $(this).hide("slow");
+            })
+
+            $("button").click(function(){
+                $("img").show();
+            })
+        })
+    </script>
+    <style>
+        .all_photo{
+            width: 100%;
+        }
+        img {
+            height: 300px;
+            width: 25%;
+        }
+     </style>
+</head>
+<body>
+    <div class="all_photo">
+      
+    </div>
+</body>
+</html>

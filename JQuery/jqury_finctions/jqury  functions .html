@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <script  src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+</head>
+<script>
+            $(document).ready(function(){
+                $('#bot').click(function(){
+                    $('#par').fadeIn()
+                })
+                $('#bot').dblclick(function(){
+                    $('#par').hide()
+                })
+                $('#bot2').click(function(){
+                    $('#par2').toggle()
+                })
+                $('#bot3').click(function(){
+                    $('#par3').slideToggle()
+                })
+                $('#bot4').click(function(){
+                    $('#par4').fadeOut()
+                })
+                $('#bot4').dblclick(function(){
+                    $('#par4').fadeIn()
+                })
+                $('#bot5').click(function(){
+                    $('#par5').addClass('decor')
+                })
+                $('#bot0').click(function(){
+                    $('#par0').before("<p> Hello wolrd </p> ")
+
+                })
+                $('#bot01').click(function(){
+                    $('#par01').after("<p> Hello wolrd again </p> ")
+
+                })
+                $('bot_lis').click(function(){
+                        $('list').append("<li> the addint </li>")
+                })
+                $('#reb').click(function(){
+                    $('#last_par').text('hello')
+                })
+            });
+</script>
+<style>
+    body {
+        background-color: azure;
+    }
+    .decor{
+        color: red;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    #par{
+        display: none;
+        color: red;
+        font-size: larger;
+    }
+</style>
+<body>      <center>
+    <h1 id="hed"> Now we learn Jqury show&hide </h1>
+   <hr> <button id="bot"> click to show </button>
+    <p id="par"> the event is fantastic  </p>
+
+    <h1 id="hed2"> Now we learn Jqury event "Toggle" </h1>
+    <hr> <button id="bot2"> click to Toggle </button>
+    <br> <p id="par2"> the jquery is library of javascript  </p>
+    
+    <h1 id="hed3"> Now we learn Jqury event "Toggle" </h1>
+    <hr> <button id="bot3"> click to Toggle </button>
+    <br> <p id="par3"> the jquery is library of javascript  </p>
+
+    <h1 id="hed4"> Now we learn Jqury event "fadeOUT" </h1>
+    <hr> <button id="bot4"> click to fadeIn </button>
+    <br> <p id="par4"> the jquery is library of javascript  </p>
+
+    <h1 id="hed5"> Now we learn Jqury event "fadeOUT" </h1>
+    <hr> <button id="bot5"> click to add class  </button>
+    <br> <p id="par5"> the jquery is library of javascript  </p>
+
+     <h1> addd text " hello " </h1>
+     <button id="bot0"> adding text befor</button>
+    <hr> <p id="par0"> welocom then the best of thing  draw ani </p>
+
+     <h1> addd text " hello " after </h1>
+     <button id="bot01"> adding text after </button>
+   <hr>  <p id="par01"> welocom then the best of thing  draw ani </p>
+
+
+   <button id="bot_lis"> adding list </button>
+   <hr>  <p> this is append then adding list   </p>
+     <ul id="list"> 
+         <li> the best  </li> 
+         <li> the best  </li> 
+         <li> the best  </li> 
+         <li> the best  </li> 
+            
+</ul>
+
+       <hr>  <button id="reb"> add </button>
+         <p id="last_par">  the adding text will use  </p>
+     </ol>
+</center>
+
+
+</body>
+</html>
