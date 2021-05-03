@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(42, 119, 190);
+
+}
+
+body header  {
+
+    background-color: rgb(73, 135, 194);
+    width: 75%;
+    margin: 4%;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 10px;
+
+
+
+}
+header a {
+    
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin:15px;
+    font-size: 25px;
+    padding: 15px;
+}
+header a:hover {
+    background-color: rgb(193, 211, 115);
+    transition: 0.5s;
+    border-radius: 25px;
+}
+body img {
+    width: 400px;
+    height: 120px;
+    margin-left: 140px;
+}
+.search {
+    float: right;
+    margin-top: 30px;
+    background-color: rgb(82, 82, 104);
+    height: 90px;
+    width: 300px;
+    border-radius: 15px;
+}
+.search form {
+    margin-left: 50px;
+   margin-top: 10px; 
+}
+.search input {
+    height: 25px;
+    outline: solid 1px silver;
+}
+.search button {
+    height: 30px;
+    background-color: rgb(50, 127, 199);
+    border-radius: 4px;
+    margin-left: 3px;
+}
+#text {
+    color: yellowgreen;
+}
+#text1 {
+    color: azure;
+    margin-left: 8px;
+    padding-top: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.par1 {
+    float: right;
+    hanging-punctuation: first;
+    font-size: 15px;
+    color: white;
+    font-family: italic;
+    width: 50%;
+
+
+}
+.list2 {
+    width: 50%;
+}
+.list1 {
+    color: rgb(190, 190, 65);
+    font-size: 20px;
+    font-family: italic;
+}
+
+}
+
+.under_list {
+    margin-left: 20px;
+    background-color;
+    width: 45%;
+    height: 350px;
+}
+.under_list li {
+    width: 130px ;
+    color: rgb(250, 250, 250);
+    margin-left: 250px;
+    padding-top: 20px;
+    border-bottom: solid 1px rgb(255, 255, 255);
+    text-decoration: none;
+}
+.list2 ul {
+    text-decoration: none;
+}
+
+.list2 li a {
+    color: rgb(255, 217, 0);
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.counter {
+    width: 100%;
+    height: 500px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+
+}
+.hr {
+    height: 8px;
+    background-color: rgb(93, 137, 179);
+    width: 500px;
+
+}
+#par1 {
+    width: 450px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+#par2 {
+    width: 450px;
+    margin-left: 20px;
+    font-size: 23px;
+}
+#pypi {
+    color: rgb(37, 67, 150) ;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    
+}
+.line {
+    color: rgb(255, 199, 56);
+    font-size: 25px;
+}
+.exam1{
+
+    color:rgb(37, 67, 150)  ;
+    font-size: 20px;
+
+
+}
+
+footer {
+    background-color: rgb(42, 119, 190);
+    color: white;
+    opacity: 0.3;
+    
+}
+.finally { 
+    display: flex;
+}
+footer h2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 200px;
+    
+}
+footer h4 {
+    text-align: center;
+}
+

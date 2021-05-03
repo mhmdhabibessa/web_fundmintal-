@@ -1,0 +1,85 @@
+*{
+    margin: 1% ;
+
+}
+
+body {
+    background-color: rgb(2, 2, 59);
+}
+
+body header {
+
+    height: 100px ;
+    background-color: rgb(182, 21, 21);
+    border-radius: 14px;
+}
+body header h1 {
+    color:rgb(209, 209, 209);
+    padding-top: 30px;
+    
+}
+.bos {
+
+    background-color: rgb(20, 19, 29);
+    border-radius: 25px;
+    height: 600px;
+    width: 70%;
+    float: right;
+}
+.bos h1 {
+    color: rgb(209, 209, 209);
+    
+}
+.bos p {
+    color: rgb(209, 209, 209);
+    font-size: 23px;
+}
+.bos ul {
+    color:rgb(209, 209, 209);
+    font-size: 23px;
+}
+
+.left {
+    padding-top: 15px;
+    width: 25%;
+    height: 350px;
+    border-radius: 25px;
+    background-color: rgb(138, 160, 161);
+    float: left;
+    box-shadow: 2px 0px 15px rgb(182, 21, 21);
+}
+.bos ul li a {
+    color :rgb(54, 123, 145);
+}
+.left h2 a  {
+    color: rgb(91, 199, 241);
+    padding-left: 5px;
+    margin-left: 14px;
+}
+
+body footer {
+    height: 100px ; 
+    width: 100% ;
+    background-color: rgb(96, 102, 102);
+    margin-top: 660px;
+    border-radius: 25px;
+}
+body footer h1 {
+    color: rgb(180, 178, 178);
+    padding-top: 25px ; 
+    font-size: 25px ;
+}
+body footer h1 a {
+    color: rgb(91, 199, 241);
+   
+}
+
+
+ .font {
+    color: rgb(209, 209, 209);;
+    font-size: 21px;
+}
+
+.left ul li a  {
+    color: rgb(255, 251, 251);
+}

@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    
+}
+body {
+    background-image: linear-gradient(#1F0F13,#6F5964);
+    width: 100%;
+    
+}
+body header {
+    background-color:whitesmoke ;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 5px rgb(167, 41, 41);
+}
+
+
+#name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    float: left;
+    padding-left: 35px;
+
+   
+}
+body header a {
+    float:right;
+    padding-top: 25px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.servic {
+    
+   
+    padding-left: 50px;
+    padding-top: 40px;
+    display: flex;
+
+}
+.profile {
+
+    width: 40%;
+   
+
+}
+.profile  img{
+    border: solid 5px silver;
+    
+}
+
+#aboot {
+    color: white;
+    background-image: linear-gradient(to bottom right,rgb(211, 210, 210), rgb(95, 90, 90));
+
+    background-color: rgb(172, 159, 159);
+    padding-left: 10px;
+    height: 40px;
+}
+#parag {
+    background-color: beige;
+    padding-top: 20px;
+    height: 360px;
+    padding-left: 10px;
+    font-size: 25px;
+    
+}
+.counter {
+    display: flex;
+    width: 100%;
+
+
+    
+}
+.ser {
+
+    
+    margin-left: 25px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+}
+.titel {
+    background-image: linear-gradient(to bottom right,rgb(211, 210, 210), rgb(95, 90, 90));
+    color:  white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.sectitel {
+    background-image: linear-gradient(to bottom right,rgb(211, 210, 210), rgb(119, 114, 114));
+    color: white;
+    padding-left: 3px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.phskills 
+{
+    padding-top: 15px;    
+    width: 100%;
+    height: 150px;
+    background-color:whitesmoke;
+    float: left;
+    
+    
+}
+.all_img {
+    padding-left: 15px;
+
+}
+
+.text_phar {
+     margin-top: 15px;
+
+}
+.porr {
+    background-color:rgb(72, 141, 72);
+    text-align: center;
+    border-radius: 15px ;
+    width: 250px;
+    height: 40px;
+    margin-top: 180px;
+    text-align: center;
+    box-shadow: 1px 1px 12px rgb(1, 116, 16);
+}
+footer {
+
+    background-color:whitesmoke ;
+    height: 100px;
+
+    
+}
+ footer h1 {
+     text-align: center;
+     color: black ; 
+ }
+ .aaa {
+     font-size: 25px;
+ }
+ 
+ .imgg {
+     border-radius: 10px;
+     padding: 1px;
+     margin-left: 10px;
+ }
+ .end {
+     display: flex;
+        float: left;
+        padding-left: 80px;
+        
+    
+    }
